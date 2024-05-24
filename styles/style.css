@@ -6,12 +6,46 @@
 
 body {
   font-family: Arial, sans-serif;
+  
 }
-.container {
+.container{
   padding-left: 16px;
   padding-right: 16px;
   width: 100%;
 }
+
+/* circle */
+.dot{
+  width: 10px; /* Adjust the size as needed */
+  height: 10px; /* Adjust the size as needed */
+  background-color: #7209b7; /* Light grey color */
+  left: 290px;
+  top: 15px;
+}
+
+.circle {
+  border-radius: 50%;
+  position: absolute;
+}
+
+.large {
+  width: 60px; /* Adjust the size as needed */
+  height: 60px; /* Adjust the size as needed */
+  background-color: rgba(0, 0, 0, 0.05); /* Light grey color */
+  left: 450px;
+  top: 100px;
+}
+
+.small {
+  width: 30px; /* Adjust the size as needed */
+  height: 30px; /* Adjust the size as needed */
+  background-color: rgba(106, 90, 205, 0.3); /* Light purple color */
+  top: 80px; /* Adjust position as needed */
+  left: 500px; /* Adjust position as needed */
+}
+
+/* circle */
+
 
 .navbar {
   display: flex;
@@ -19,12 +53,14 @@ body {
   align-items: center;
   background-color: white;
   padding: 10px 20px;
+
+
 }
 
 .navbar-brand {
-  margin-left: 120px;
-  margin-top: 15px;
-  color: #7209b7;
+ margin-left: 160px;
+ margin-top: 25px;
+ color: #7209b7;
 }
 
 .navbar-menu {
@@ -37,8 +73,8 @@ body {
 }
 
 .navbar-menu a {
-  color: #7209b7;
-
+   color: #7209b7; 
+  
   text-decoration: none;
   font-size: 18px;
   padding: 5px 10px;
@@ -47,11 +83,12 @@ body {
 
 .navbar-menu a:hover {
   color: black;
+  
 }
 
 .navbar-toggle {
   display: none;
-  flex-direction: column;
+  flex-direction: column; 
   cursor: pointer;
 }
 
@@ -59,62 +96,111 @@ body {
   height: 3px;
   width: 25px;
   background-color: #fff;
-  margin: 4px 0;
+   margin: 4px 0; 
   transition: 0.4s;
 }
-.h2 {
+.h2{
   color: #6a5acd;
   font-style: italic;
 }
 
+
 /* home-section */
 
-.home-section {
+.home-section{
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 
 /* button */
-.styled-buttons {
+.styled-buttons{
   gap: 12px;
   display: flex;
 }
-.styled-buttons button {
+.styled-buttons button{
   background-color: white; /* Blue background */
   color: black; /* White text */
   border: 1px solid blue; /* Remove border */
   padding: 8px 20px; /* Add padding */
   font-size: 14px; /* Increase font size */
   border-radius: 5px;
-  cursor: pointer;
+  cursor: pointer; 
+  
+
+  
 }
 
 .styled-buttons button:hover {
   background-color: #0056b3; /* Darker blue on hover */
   box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); /* Slightly larger shadow on hover */
 }
+/* button 2 */
 
-.left span {
-  color: #7209b7;
+
+
+.right button{
+  background-color:#7209b7 ; 
+  color: white; 
+  border: 1px solid blue; 
+  padding: 8px 20px; 
+  font-size: 14px; 
+  border-radius: 5px;
+  cursor: pointer; 
 }
-.left {
+.right button:hover {
+  background-color:  white; 
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); 
+  color: black;
+}
+
+
+
+/* button end */
+
+.left span{
+  color: #7209b7;
+
+}
+.left{
   line-height: 62px;
 }
-.left h1 {
+.left h1{
   font-size: 50px;
 }
-.flex {
+.flex{
   display: flex;
 }
 
-.hello {
+.hello{
   display: flex;
   align-items: center;
   gap: 10px;
 }
-.hello hr {
+.hello hr{
   color: 5px solid black;
   width: 200px;
-  border: 1px solid black;
+  border: 1px solid black;    
 }
+/* about section */
+.about-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right h1{
+  line-height: 38px;
+  font-size: 40px;
+}
+.hey{
+  color: #7209b7;
+}
+.paara{
+  margin-bottom: 20px;
+}
+.all{
+margin-bottom: 28px;
+}
+
